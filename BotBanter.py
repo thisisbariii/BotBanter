@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_chat import message
 
 # Set your OpenAI API key (preferably from an environment variable)
-openai.api_key = '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'
+openai.api_key = 'your api key'
 
 # Initialize Streamlit session_state variables
 if 'prompts' not in st.session_state:
